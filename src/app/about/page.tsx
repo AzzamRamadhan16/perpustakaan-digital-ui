@@ -1,8 +1,8 @@
 export default function AboutPage() {
   return (
-    <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
-      <h1>Halaman Profil & Layanan</h1>
-      <p>Informasi profil, sejarah, serta layanan yang tersedia di perpustakaan digital.</p>
+    <main className="max-w-4xl mx-auto px-8 py-12 font-sans">
+      <h1 className="text-2xl font-bold tracking-tight text-zinc-900">Profil & Layanan</h1>
+      <p className="text-sm text-zinc-500 mt-2">Informasi profil, sejarah, serta layanan yang tersedia di perpustakaan digital.</p>
     </main>
   );
 }

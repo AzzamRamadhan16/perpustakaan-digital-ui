@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import BookCard from "@/components/BookCard";
 import Button from "@/components/Button";
 
@@ -13,12 +12,10 @@ const books = [
 export default function CatalogPage() {
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-900 font-sans selection:bg-zinc-900 selection:text-white">
-      <Header />
-      
       <main className="max-w-6xl mx-auto px-8 py-12">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-10">
           <div>
-            <h1 className="text-2xl font-bold tracking-tight text-zinc-900">Katalog Buku Digital</h1>
+            <h1 className="text-2xl font-bold tracking-tight text-zinc-900">Katalog Digital</h1>
             <p className="text-sm text-zinc-500 mt-1">Jelajahi koleksi literasi dan e-book pilihan dengan mudah.</p>
           </div>
           <Button label="+ Tambah Koleksi" variant="primary" />
